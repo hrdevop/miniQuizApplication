@@ -1,0 +1,33 @@
+<div class="container my-4">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center mb-4">Quiz Result</h5>
+            <div class="row">
+              <div class="col">
+                <p class="mb-1">Total Questions:</p>
+                <h4 class="font-weight-bold">{{ result.questions }}</h4>
+              </div>
+              <div class="col">
+                <p class="mb-1">Questions Answered:</p>
+                <h4 class="font-weight-bold">{{ result.answered }}</h4>
+              </div>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+              <div class="col">
+                <p class="mb-1">Correct Answers:</p>
+                <h4 class="font-weight-bold">{{ result.correct }}</h4>
+              </div>
+              <div class="col">
+                <p class="mb-1">Score:</p>
+                <h4 class="font-weight-bold">{{ getPercentage() | number : "1.0-2" }}%</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

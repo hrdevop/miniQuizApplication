@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-body">
+      <h5 class="card-title">{{ question.question }}</h5>
+      <form>
+        <div *ngFor="let option of question.options" class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="options"
+            [id]="option"
+            [value]="option"
+            [(ngModel)]="question.answer"
+          />
+          <label class="form-check-label" [for]="option">{{ option }}</label>
+        </div>
+      </form>
+    </div>
+  </div>
+  

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "c7f8a4b0-8e3d-4c7d-bfb5-05be8ea5a172",
+    "question": "What is the largest mammal on Earth?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"]
+  },
+  {
+    "id": "21c46d8e-7279-4a05-a024-f899f0ec8a28",
+    "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"]
+  },
+  {
+    "id": "1a50f2bb-320c-43c8-9523-d07f53609805",
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Go", "Ag", "Au", "Ge"]
+  },
+  {
+    "id": "aa69f258-0d49-40c1-a27c-537ff90727e5",
+    "question": "Which planet is known as the 'Morning Star' or 'Evening Star' due to its brightness?",
+    "options": ["Mars", "Venus", "Jupiter", "Mercury"]
+  },
+  {
+    "id": "729bb1b7-6104-4df0-af25-d1f6b2e0e3ea",
+    "question": "What is the largest organ in the human body?",
+    "options": ["Heart", "Skin", "Liver", "Lungs"]
+  }
+]
